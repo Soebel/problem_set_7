@@ -16,4 +16,4 @@ new_values.append(2.)
 new_values.append(1.)
 new_values.append(5.)
 
-print "Difference in the mean:", np.mean(new_values) - np.mean(values)
+print "Difference in the mean:", np.mean(values) - np.mean(new_values)
